@@ -1,0 +1,97 @@
+.auth-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    // background: gray;
+
+    .wrapper{
+        margin-bottom: 50px;
+        width: 30%;
+        // background: red;
+        .icon{
+            margin: 20px auto;
+            width: 55px;
+            height: 55px;
+        }
+    }
+
+}
+
+.or{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+    hr{
+      width: 100%;
+      border-color: $grey0;
+      opacity: .5;
+    }
+    span{
+      position: absolute;
+      top: -15px;
+      background: $white;
+      padding: 5px;
+      display: flex;
+      font-weight: 600;
+      font-size: .8em !important;
+      color: $grey3;
+    }
+}
+
+input, textarea{
+    border: 1.5px solid $grey3 !important;
+}
+@media screen and (max-width:1260px) {
+    .auth-main{
+        .wrapper{
+            width: 35%;
+        }
+    
+    }
+}
+@media screen and (max-width:1100px) {
+    .auth-main{
+        .wrapper{
+            width: 43%;
+        }
+    
+    }
+}
+@media screen and (max-width:920px) {
+    .auth-main{
+        .wrapper{
+            width: 55%;
+        }
+    
+    }
+}
+
+@media screen and (max-width:760px) {
+    .auth-main{
+        .wrapper{
+            width: 70%;
+        }
+    
+    }
+}
+
+@media screen and (max-width:560px) {
+    .auth-main{
+        height: auto;
+        .wrapper{
+            width: 90%;
+            margin: 50px 0px;
+        }
+    
+    }
+}
+
+@media screen and (max-width:375px) {
+    .auth-main{
+        .wrapper{
+            width: 95%;
+        }
+    
+    }
+}

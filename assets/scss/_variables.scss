@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+//Fonts
+$fontFamily : "Plus Jakarta Sans", sans-serif;
+
+$primaryColor: #546FFF;
+$primaryColorDark: #455ff1;
+$white: #ffffff;
+$textColor: rgb(9, 8, 39);
+$link: #04A4F4;
+
+$grey0: #fdfdfd;  // Lightest
+$grey1: #f8f9fa;  // Very light grey
+$grey2: #e9ecef;  // Light grey
+$grey3: #e8e8e8;  // Slightly darker grey
+$grey4: #d3d3d3;  // Medium light grey
+$grey5: #aaaaaa;  // Medium grey
+$grey6: #888888;  // Medium dark grey
+$grey7: #3d3d3d;  // Dark grey
+$grey8: #313131;  // Darkest grey
+
+$shadowColor:rgb(241, 241, 241);
+$modalBackground: rgba($color: #000000, $alpha: .5);
+$modalBackgroundLight: rgba($color: #000000, $alpha: 0.1);
+
+$sucess: rgb(41, 250, 107);
+$danger: rgb(228, 77, 77);
+$wished: rgb(199, 61, 61);
+$dangerLight: rgb(253, 205, 205);
+
+$borderSmall: 1.5px solid $grey2;
+$border: 2px solid $grey2;
+$borderLarge: 3px solid $grey2;
+
+$borderRadius: 5px;
+
+$boxShadow: 0px 0px 3px $grey2;
+//swiper js
+$swiper-theme-color : #1dbf73bd !important;
+
+$backgroundLight: #FAFAFA;

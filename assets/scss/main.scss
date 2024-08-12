@@ -1,0 +1,93 @@
+// @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+@import "@/assets/scss/_default.scss";
+@import "@/assets/scss/_utilites.scss";
+
+@import "@/assets/scss/animate.scss";
+@import "@/assets/scss/form.scss";
+
+.container-lg{
+  padding: 15px 9%;
+}
+.container-md{
+  padding: 20px 15%;
+}
+
+.container-sm{
+  padding: 20px 18%;
+}
+
+.show-desktop{
+  display:block;
+}
+
+.show-mobile{
+  display: none;
+}
+
+span{
+  font-size: .85em;
+  color: $grey7;
+  font-weight: 500;
+
+  &.small{
+    font-size: .75em !important;
+  }
+}
+
+.color-link{
+  color: $link;
+}
+
+
+.seperator{
+  color: $grey5;
+}
+
+.top{
+  margin-top: 30px !important;
+}
+
+p{
+  line-height: 30px;
+  font-size: .9em !important;
+}
+@media (max-width:1200px) {
+  .container-sm{
+    padding: 20px 9%;
+  }
+}
+
+@media (max-width:1100px) {
+  .container-lg{
+    padding: 15px 9%;
+  }
+  .container-md{
+    padding: 15px 9%;
+  }
+  
+  .container-sm{
+    padding: 15px 9%;
+  }
+}
+
+@media (max-width:960px) {
+  .show-desktop{
+    display:none !important;
+  }
+  .show-mobile{
+    display: block;
+  }
+}
+
+@media (max-width:700px) {
+  .container-lg{
+    padding: 15px 4%;
+  }
+  .container-md{
+    padding: 15px 4%;
+  }
+  
+  .container-sm{
+    padding: 15px 4%;
+  }
+}

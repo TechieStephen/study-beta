@@ -1,0 +1,45 @@
+
+.resource{
+   background: $white;
+   padding: 10px;
+   border-radius: 5px;
+   width: 100%;
+   margin-bottom: 10px;
+   // box-shadow: $boxShadow;
+//    border: $border;
+   display: grid;
+   grid-template-columns: 90px calc(100% - 100px);
+
+   justify-content: space-between;
+   align-items: center;
+   cursor: pointer;
+   
+   .icon-wrapper{
+       width: 90px;
+       height: 90px;
+       border-radius: 10px;
+       overflow: hidden;
+       // border: 2px solid $grey1;
+       border: $borderSmall;
+
+   }
+   
+
+   .details{
+       h5{
+           font-weight: 600;
+       }
+
+       span{
+           font-size: .8em !important;
+       }
+       
+
+       button{
+           padding: 8px 12px !important;
+           font-weight: 600 !important;
+           font-size: .7em !important;
+           // border-color: $primaryColor !important;
+       }
+   }
+}

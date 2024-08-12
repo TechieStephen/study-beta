@@ -1,0 +1,43 @@
+<script setup>
+const { userData, updateUser, processing} = useAccount()
+</script>
+
+
+<template>
+    <form @submit.prevent="">
+        <div class="form-section">
+            <div class="form-group">
+                <label for="">First Name</label>
+                <input v-model="userData.firstname" type="text" name="" id="">
+            </div>
+
+            <div class="form-group">
+                <label for="">Last Name</label>
+                <input v-model="userData.lastname" type="text" name="" id="">
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="">Phone</label>
+            <input v-model="userData.phoneNumber" disabled type="text" name="" id="">
+        </div>
+        
+        <div class="form-group">
+            <label for="">Email</label>
+            <input v-model="userData.email" disabled type="text" name="" id="">
+        </div>
+
+        <div class="mt-2 flex justify-end">
+            <button type="submit" class="btn btn-primary flex justify-center align-items-center">
+                <Processing :margin="true" v-if="processing"/>
+                Save Changes
+            </button>
+        </div>
+    </form>
+</template>
+
+<style lang="scss" scoped>
+form{
+    margin: 20px 0px;
+}
+</style>
